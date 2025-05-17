@@ -8,7 +8,8 @@ Using the **ls** command to list the files in the current working directory, two
 
 <img width="756" alt="Screenshot 2025-05-17 at 5 38 05 PM" src="https://github.com/user-attachments/assets/fa1bbc12-d65c-431e-bfbb-2f2fc0649773" />
 
-The **README.txt** file contains an important message with instructions to follow. The **cat** command to list the contents of the **README.txt** file.
+- The **README.txt** file contains an important message with instructions to follow.
+- The **cat** command to list the contents of the **README.txt** file.
 The message in the **README.txt** file advises that the *caesar* subdirectory contains a hidden file.
 
 ## Find A Hidden File
@@ -16,8 +17,14 @@ This task is to find a hidden file in the home directory and decrypt the Caesar 
 
 <img width="756" alt="Screenshot 2025-05-17 at 5 42 22 PM" src="https://github.com/user-attachments/assets/80c47ba4-002f-4ea6-a9fd-d6b7e887ef70" />
 
-The **cd** command was first used to change to the *caesar* subdirectory of your home directory. Then the **ls -a** command to list all files, including hidden files, in the home directory.
+- The **cd** command was first used to change to the *caesar* subdirectory of your home directory.
+- Then the **ls -a** command to list all files, including hidden files, in the home directory.
+- This will display the following output: **.leftShift3**
+  
+The message in the **.leftShift3** file appears to be scrambled. This is because the data has been encrypted using a Caesar cipher. This cipher can be solved by shifting each alphabet character to the left or right by a fixed number of spaces. In this example, the shift is three letters to the left. Thus **"d"** stands for **"a"**, and **"e"** stands for **"b"**.
+
+You can decrypt the Caesar cipher in the .leftshift3 file by using the following command:
 
 
-## Project Description  
+## Decrypt A File 
 
