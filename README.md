@@ -16,8 +16,7 @@ This task is to find a hidden file in the home directory and decrypt the Caesar 
 
 <img width="756" alt="Screenshot 2025-05-17 at 5 42 22 PM" src="https://github.com/user-attachments/assets/80c47ba4-002f-4ea6-a9fd-d6b7e887ef70" />
 
-First, use the **cd** command to change to the *caesar* subdirectory of your home directory:
-Use the **ls -a** command to list all files, including hidden files, in your home directory.
+The **cd** command was first used to change to the *caesar* subdirectory of your home directory. Then the **ls -a** command to list all files, including hidden files, in the home directory.
 
 
 ## Project Description  
