@@ -1,4 +1,4 @@
-# Decrypting-An-Encrypted-Message
+# Decrypting An Encrypted Message
 
 ## Project Description  
 Complete a series of tasks to obtain instructions for decrypting an encrypted file. Encryption of data in use, at rest, and in transit is critical to security functions.
