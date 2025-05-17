@@ -19,11 +19,13 @@ This task is to find a hidden file in the home directory and decrypt the Caesar 
 
 - The **cd** command was first used to change to the *caesar* subdirectory of your home directory.
 - Then the **ls -a** command to list all files, including hidden files, in the home directory.
-- This will display the following output: **.leftShift3**
+- This will display the following output:
+- **.leftShift3**
   
 The message in the **.leftShift3** file appears to be scrambled. This is because the data has been encrypted using a Caesar cipher. This cipher can be solved by shifting each alphabet character to the left or right by a fixed number of spaces. In this example, the shift is three letters to the left. Thus **"d"** stands for **"a"**, and **"e"** stands for **"b"**.
 
-You can decrypt the Caesar cipher in the .leftshift3 file by using the following command:
+The Caesar cipher in the **.leftshift3** file can be decrypted by using the following command:
+- **cat .leftShift3 | tr "d-za-cD-ZA-C" "a-zA-Z"**
 
 
 ## Decrypt A File 
