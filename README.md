@@ -27,6 +27,16 @@ The message in the **.leftShift3** file appears to be scrambled. This is because
 The Caesar cipher in the **.leftshift3** file can be decrypted by using the following command:
 - **cat .leftShift3 | tr "d-za-cD-ZA-C" "a-zA-Z"**
 
+In this case, the command **tr "d-za-cD-ZA-C" "a-zA-Z"** translates all the lowercase and uppercase letters in the alphabet back to their original position. The first character set, indicated by **"d-za-cD-ZA-C"**, is translated to the second character set, which is **"a-zA-Z"**.
+
+Returned to the home directory prior to the next task, **cd ~**
 
 ## Decrypt A File 
+In this task, the command revealed in **.leftshift3** was used to decrypt a file and recover the the data so it can be read along with the message it contains.
 
+<img width="756" alt="Screenshot 2025-05-17 at 5 46 32 PM" src="https://github.com/user-attachments/assets/4d50fb05-4e44-4920-828b-cb2cd900de75" />
+
+The following command from the previous task was used to decrypt the encrypted file:
+- **openssl aes-256-cbc -pbkdf2 -a -d -in Q1.encrypted -out Q1.recovered -k ettubrute**
+  
+In this instance, the **openssl** command reverses the encryption of the file with a secure symmetric cipher, as indicated by **AES-256-CBC**. The **-pbkdf2** option is used to add extra security to the key, and **-a** indicates the desired encoding for the output. The **-d** indicates decrypting, while **-in** specifies the input file and **-out** specifies the output file. The **-k** specifies the password, which in this example is ettubrute.
