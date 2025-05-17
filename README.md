@@ -38,6 +38,7 @@ In this task, the command revealed in **.leftshift3** was used to decrypt a file
 
 The following command from the previous task was used to decrypt the encrypted file:
 - **openssl aes-256-cbc -pbkdf2 -a -d -in Q1.encrypted -out Q1.recovered -k ettubrute**
+
 In this instance, the **openssl** command reverses the encryption of the file with a secure symmetric cipher, as indicated by **AES-256-CBC**. The **-pbkdf2** option is used to add extra security to the key, and **-a** indicates the desired encoding for the output. The **-d** indicates decrypting, while **-in** specifies the input file and **-out** specifies the output file. The **-k** specifies the password, which in this example is ettubrute.
 - The **ls** command was used to list the contents of your current working directory again.
 - The new file **Q1.recovered** in the directory listing is the decrypted file and contains a message.
